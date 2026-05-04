@@ -22,9 +22,9 @@
 
 ## 快速开始
 
-### 方式一:作为 Claude Skill 安装(推荐)
+### 方式一:作为 Claude/Codex Skill 安装(推荐)
 
-把整个目录放到 Claude 的 user skills 路径下:
+把整个目录放到 Claude/Codex 的 user skills 路径下:
 
 ```bash
 # Claude Desktop / Claude Code 用户
@@ -34,17 +34,15 @@ cp -r harness-engineering ~/.claude/skills/user/
 "调用 harness-engineering skill 帮我设计一个新项目的 AGENTS.md"
 ```
 
-### 方式二:直接读文档使用
+### 方式二:直接丢给Openclaw或者Agents来安装
 
-如果你不用 Claude,只是想了解方法论,直接按下面顺序读:
+直接丢本网址链接给AI，然后说：“帮我安装这个调用 harness-engineering skill到本地”
 
 1. **`SKILL.md`** — 主入口,先读这个建立整体认知(约 5 分钟)
 2. **`checklist.md`** — 实施动作清单,告诉你按什么顺序做(约 5 分钟)
 3. **`AGENTS_template.md`** — 复制模板填空,创建你项目的 AGENTS.md(约 30 分钟动手)
 4. **`tool-permissions.md`** — 当 Agent 接触不可逆操作时再看
 5. **`workflow-patterns.md`** — 当你确定要搭分角色工作流时再看
-
-**建议从 30 分钟启动方案开始**(`checklist.md` 末尾)——先快速搭起最小可用版本,跑起来再迭代,而不是一次到位写到完美。
 
 ## 文件结构
 
